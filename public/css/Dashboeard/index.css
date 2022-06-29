@@ -1,0 +1,197 @@
+/*========== GOOGLE FONTS ==========*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*========== VARIABLES CSS ==========*/
+:root {
+  --header-height: 3.5rem;
+  --nav-width: 219px;
+  /**========== darkmode =======*/
+  --dark-pr-color:#000000;
+  --dark-sc-color: #2B2B2B;
+  --dark-tr-color:#080218;
+  --dark-fr-color:#3F0071;
+  --dark-fv-color:#610094;
+
+  --text-seconde-color-dark: #E3E3E3;
+  --text-color-dark:#F1F1F1;
+  --text-seconde-color-dark: #E3E3E3;
+  /*========== Colors ==========*/
+  --my-pr-color:  #232D65;
+  --my-sc-color: #929DD9;
+  --my-tr-color: #A8B0E0;
+  --first-color:   #f4f5f7d3;
+  --first-color-light: #fefefe;
+  --title-color: #19181B;
+  --text-color:   #a9aec0d3;
+  --text-color-light:   #bec4d4d3;
+  --body-color: #F9F6FD;
+  --container-color: #FFFFFF;
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+  --normal-font-size: .938rem;
+  --small-font-size: .75rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== z index ==========*/
+  --z-fixed: 100;
+}
+
+
+/* ************************* DARK MODE STYLE START *********************** */
+body.dark-theme{
+    background: var(--dark-pr-color);
+    color: var(--text-color-dark);
+}
+
+/* // chanege vue good table style in dark  thmee */
+body.dark-theme .vgt-table{
+    background-color:var(--dark-sc-color) !important;
+}
+body.dark-theme  .badge{
+    color: #000000;
+}
+body.dark-theme .vgt-table th,body.dark-theme .vgt-table .vgt-checkbox-col{
+    background: var(--dark-pr-color);
+    color: var(--text-color-dark)!important;
+    border: 2px solid var(--dark-pr-color) !important;
+}
+body.dark-theme .vgt-global-search {
+    background:var(--dark-pr-color) !important;
+    border-bottom: #19181B;
+    border-top: #19181B;
+    border:#19181B;
+}
+body.dark-theme  .vgt-input{
+    background-color: var(--dark-sc-color) !important;
+    color: var(--text-color-dark) !important;
+    border: none;
+}
+body.dark-theme  .vgt-input::-webkit-input-placeholder{
+    color: var(--first-color-light) !important;
+}
+body.dark-theme .vgt-table td{
+    background-color:var(--dark-sc-color) !important;
+    color: var(--text-seconde-color-dark) !important;
+    border: 2px solid var(--dark-pr-color) !important;
+}
+body.dark-theme  .action-btn{
+  color:  white !important;
+}
+
+/* **** dark them in stat cards ***  */
+body.dark-theme .cadr{
+  background-color: var(--dark-sc-color) !important;
+}
+
+body.dark-theme  .card-icon{
+
+    border-color: transparent !important;
+    background-color: var(--dark-tr-color) !important;
+    color: var(--text-color-dark) !important;
+}
+
+body.dark-theme  .cadr:hover .card-icon{
+     background-color: #474747 !important;
+}
+/* **** dark them in sidebar ***  */
+body.dark-theme .nav{
+    background-color: #474747 !important;
+}
+body.dark-theme .nav__subtitle{
+
+    color: white !important;
+}
+body.dark-theme  .nav__link.active {
+
+    color: var(--text-color-dark);
+}
+body.dark-theme  .nav__dropdown-collapse{
+    background-color: var(--dark-sc-color);
+    border-radius: .25rem;
+    margin-top: 1rem;
+}
+.nav__link:hover{
+    color: var(--text-color-light) !important;
+}
+/* **** dark them in navbar ***  */
+body.dark-theme  .header{
+    background-color: var(--dark-sc-color);
+}
+body.dark-theme  .header__logo{
+    color: var(--my-tr-color);
+
+ }
+ body.dark-theme  .header__logo:hover{
+     color: var(--my-sc-color);
+
+  }
+
+  /* // btn in dark mode  */
+  body.dark-theme  .primary-btn{
+    background: #474747;
+    color: var(--text-seconde-color-dark);
+}
+body.dark-theme .primary-btn:hover,.primary-btn:active{
+  background: var(--dark-sc-color);
+  color: white;
+}
+
+body.dark-theme .border-bottom{
+    border: none  !important;
+}
+/********* modal dare mode ******/
+body.dark-theme .modal-content{
+    background: #474747 !important;
+}
+
+/****** pagination dark mode ?*****/
+body.dark-theme .page-link{
+     color: white !important;
+     background-color: #19181B !important;
+     border: none !important;
+}
+/* ================================ END DARK MODE =================================== */
+/* paginatin style   */
+.pagination-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    }
+
+    .page-link {
+        position: relative;
+        display: block;
+        color:#232D65 !important;
+        text-decoration: none;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      }
+
+      .page-link:hover {
+        z-index: 2;
+        color: #19181B !important;
+        background-color: #A8B0E0 !important;
+        border-color:#f4f5f7d3 !important;
+      }
+      .page-link:focus {
+        z-index: 3;
+        color: #232D65 !important ;
+        background-color: #e9ecef;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+      }
+
+
+      .page-item.active .page-link {
+        z-index: 3;
+        color: #fff !important;
+        background-color:#232D65 !important;
+        border-color:#929DD9 !important;
+      }

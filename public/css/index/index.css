@@ -1,0 +1,181 @@
+/*========== GOOGLE FONTS ==========*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*========== VARIABLES CSS ==========*/
+:root {
+  --header-height: 3.5rem;
+  --nav-width: 219px;
+ /**========== darkmode =======*/
+ --dark-pr-color:#000000;
+ --dark-sc-color: #2B2B2B;
+ --dark-tr-color:#080218;
+ --dark-fr-color:#3F0071;
+ --dark-fv-color:#610094;
+
+ --text-seconde-color-dark: #E3E3E3;
+ --text-color-dark:#F1F1F1;
+ --text-seconde-color-dark: #E3E3E3;
+  /*========== Colors ==========*/
+  --my-pr-color:  #232D65;
+  --my-sc-color: #929DD9;
+  --my-tr-color: #A8B0E0;
+  --first-color:   #f4f5f7d3;
+  --first-color-light: #fefefe;
+  --title-color: #19181B;
+  --text-color:   #a9aec0d3;
+  --text-color-light:   #bec4d4d3;
+  --body-color: #F9F6FD;
+  --container-color: #FFFFFF;
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+  --normal-font-size: .938rem;
+  --small-font-size: .75rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== z index ==========*/
+  --z-fixed: 100;
+}
+/* ************************* DARK MODE STYLE START *********************** */
+body.dark-theme{
+    background: var(--dark-pr-color);
+    color: var(--text-color-dark);
+}
+body.dark-theme .start__button{
+    color: var(--text-color-dark);
+}
+body.dark-theme .b-title{
+    color: var(--text-seconde-color-dark);
+  }
+  body.dark-theme .b-title:hover{
+    color: var(--first-color-light);
+  }
+  /****** pagination dark mode ?*****/
+body.dark-theme .page-link{
+    color: white !important;
+    background-color: #19181B !important;
+    border: none !important;
+}
+/* ************************* END DARK MODE STYLE START *********************** */
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
+/*========== BASE ==========*/
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: var(--header-height) 0 0 0;
+  padding: 1rem 1rem 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color:#fafafa;
+  color: var(--text-color);
+}
+
+h3 {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* big title style  */
+  .b-title{
+    text-align: center;
+    color: var(--dark-pr-color);
+    margin-bottom: 60px;
+
+}
+/* end big title style  */
+  .primary-btn{
+      background: #929DD9;
+      color: white;
+  }
+  .primary-btn:hover,.primary-btn:active{
+    background: #232D65;
+    color: white;
+}
+ .close-btn{
+     background: rgb(204, 204, 204);
+     color: white;
+ }
+ .close-btn:hover,.close-btnactive{
+    background: rgb(139, 139, 139);
+    color: white;
+}
+
+
+/* paginatin style   */
+.pagination-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    }
+
+    .page-link {
+        position: relative;
+        display: block;
+        color:#232D65 !important;
+        text-decoration: none;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      }
+
+      .page-link:hover {
+        z-index: 2;
+        color: #19181B !important;
+        background-color: #A8B0E0 !important;
+        border-color:#f4f5f7d3 !important;
+      }
+      .page-link:focus {
+        z-index: 3;
+        color: #232D65 !important ;
+        background-color: #e9ecef;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+      }
+
+
+      .page-item.active .page-link {
+        z-index: 3;
+        color: #fff !important;
+        background-color:#232D65 !important;
+        border-color:#929DD9 !important;
+      }
+
+
+ /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+    width: .2rem;
+    border-radius: .1rem;
+    background-color:var(--main-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:var(--dark-fr-color);
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--my-tr-color);
+}

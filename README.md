@@ -1,64 +1,194 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://main--abderrahmaneamerrhiportfoliov2.netlify.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abderrahmane-amerrhi-807b40201/)
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# The car rental application
 
-## About Laravel
+The car rental application enables you to rent cars and display cars through the main factory company
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Discover [Vedio](https://abderrahmaneamerrhi.com/assets/carrentalprojectved-36a6384e.mp4).
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Information
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+I built the app using laravel and vuejs, made a simple backend and also used api, created apis using laravel and used them in vuejs components
 
-## Learning Laravel
+### Technologies used in Backend
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+| Technology |        Description        | Version |
+| :--------- | :-----------------------: | :-----: |
+| Php        |       PHP language        | ^8.0.2  |
+| Laravel    | Laravel backend framework |  ^9.11  |
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Technologies used in FrontEnd
 
-## Laravel Sponsors
+| Technology             |                                                                           Description                                                                           | Version  |
+| :--------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------: |
+| vuejs                  |                                                                        Vuejs3 Framework                                                                         | ^3.2.36  |
+| vue-good-table         |                                                                     vuejs table componenet                                                                      | ^2.21.11 |
+| laravel-vue-pagination |                                                            vuejs with laravel pagination componenet                                                             |  ^2.3.1  |
+| vuex                   |                                                                     Vuejs state management                                                                      |  ^3.6.5  |
+| vue-router             | vuejs router Vue Router is the official router for Vue.js. It deeply integrates with Vue.js core to make building Single Page Applications with Vue.js a breeze |  ^3.5.4  |
+| vue-chartjs            |                                                                    vuejs charts componenets                                                                     |  ^4.1.1  |
+| moment                 |                                                                            moment js                                                                            | ^2.29.3  |
+| scrollreveal           |                                                                     scrollreveal Animation                                                                      |  ^4.0.9  |
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+⚡️ And other tools used: Visit file package.json
 
-### Premium Partners
+## Cloning and use
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+```bash or terminal
+  # Cloning app
+  git clone  https://github.com/AbderrahmaneAmerhhi/car_rental_app
 
-## Contributing
+  # install composer
+   composer install
+   php artisan config:clear
+   php artisan config:cache
+  # copy .env.example => rename it to .env
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+  # generate App key
+   php artisan key:generate
 
-## Code of Conduct
+  # install node_modules
+   npm install
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```
 
-## Security Vulnerabilities
+## Configuration
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+```env
+# in .env file config database
 
-## License
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=yourdatabse_name
+DB_USERNAME=root
+DB_PASSWORD=databasepassword
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# config Mail add your mail configuration
+
+MAIL_MAILER=smtp
+MAIL_HOST=mailhog
+MAIL_PORT=1025
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS="hello@example.com"
+MAIL_FROM_NAME="${APP_NAME}"
+
+
+```
+
+## Migrate database and run app
+
+```bash or terminal
+  ########### open app in terminal or cmd or bash ... ###############
+  # Migrate data base run in terminal
+   php artisan migrate
+
+  # seed database
+   php artisan db:seed
+
+  # run app
+  php artisan serve
+   ## in other terminal
+    npm run dev
+
+  # open app in
+  http://127.0.0.1:8000
+
+  # login to admin dashboard
+   Url : http://127.0.0.1:8000/admin
+   Email :   admin@gmail.com
+   Password : admin
+
+
+```
+
+## Features
+
+-   Dynamic backend with laravel Backend framework
+-   Responsive front-end with dark mode and other widgets built using vue.js framework
+
+#### Dashboard Features
+
+-   Administrators can manage factory companies for every car, add new companies data, update a companies, delete a companies or archive it. Export company or multiple companies data.
+-   Administrators can manage the vehicle, add new vehicle data, update delete or archive a vehicle data. Export vehicle or multiple vehicle data.
+-   Track companies cars orders data statistics in charts and cards .
+-   Manage show orders
+-   change admin profile data
+
+#### User side
+
+-   Visitors can view cars and can send you email Create a new account Log in...
+-   To order new car the user must be connected to their own account
+-   The user can change their profile data
+
+## Some dashboard images
+
+#### Admin Login
+
+![Admin Login image](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/auth/loginadmin.png)
+
+#### Manage factory companies
+
+![manage cats image](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/catdashboardimage.png)
+
+#### Manage vehicles
+
+![manage products image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/manageproducts.png)
+![manage products image2](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/manageproducts2.png)
+
+#### manage admin profile
+
+![manage admins image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/manageadminandadminprofile.png)
+
+#### Manage Orders
+
+![manage Orders image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/manageorders.png)
+
+## Some user side images
+
+#### User Login Register
+
+![User Login image](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/auth/loginuser.png)
+![User Register image](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/auth/registerdarkmode.png)
+
+#### Home
+
+![ home image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/home1.png)
+![ home image2](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/home2.png)
+
+#### Contact Us
+
+![ Contact image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/contactus.png)
+
+#### Show Porduct
+
+![ Porduct image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/showproduct.png)
+
+#### Cart
+
+![ Cart image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/cart.png)
+
+#### Open Ticktes
+
+![ Open Ticktes image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/openTicket.png)
+
+#### Ticktes
+
+![  Ticktes image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/tickets.png)
+
+#### Invoices
+
+![  invoices image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/invoices.png)
+
+#### User Profile
+
+![  User Profile image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/userprofile.png)
+
+## Some DarkMode images
+
+![  User DarkMode image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/Darkmodefront.png)
+![  User DarkMode image2](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/darkmode.png)
+![  User DarkMode image3](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/auth/registerdarkmode.png)

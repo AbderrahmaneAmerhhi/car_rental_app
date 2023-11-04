@@ -126,22 +126,20 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 ## Some dashboard images
 
-#### Admin Login
-
-![Admin Login image](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/auth/loginadmin.png)
-
 #### Manage factory companies
 
-![manage cats image](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/catdashboardimage.png)
+![manage cats image](https://github.com/AbderrahmaneAmerhhi/car_rental_app/blob/main/public/images/github/backend/companis.png)
+![manage cats image](https://github.com/AbderrahmaneAmerhhi/car_rental_app/blob/main/public/images/github/backend/companisadd.png)
+![manage cats image](https://github.com/AbderrahmaneAmerhhi/car_rental_app/blob/main/public/images/github/backend/Homestatistics.png)
 
 #### Manage vehicles
 
-![manage products image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/manageproducts.png)
-![manage products image2](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/manageproducts2.png)
+![manage car image1](https://github.com/AbderrahmaneAmerhhi/car_rental_app/blob/main/public/images/github/backend/carsmanage.png)
+![manage car image2](https://github.com/AbderrahmaneAmerhhi/car_rental_app/blob/main/public/images/github/backend/addcars.png)
 
 #### manage admin profile
 
-![manage admins image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/manageadminandadminprofile.png)
+![manage admins image1](https://github.com/AbderrahmaneAmerhhi/car_rental_app/blob/main/public/images/github/backend/updatadminprofile.png)
 
 #### Manage Orders
 
@@ -151,44 +149,20 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 #### User Login Register
 
-![User Login image](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/auth/loginuser.png)
-![User Register image](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/auth/registerdarkmode.png)
+![User Login image](https://github.com/AbderrahmaneAmerhhi/car_rental_app/blob/main/public/images/github/frontend/login.png)
+![User Register image](https://github.com/AbderrahmaneAmerhhi/car_rental_app/blob/main/public/images/github/frontend/register.png)
 
 #### Home
 
-![ home image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/home1.png)
-![ home image2](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/home2.png)
+![ home image1](https://github.com/AbderrahmaneAmerhhi/car_rental_app/blob/main/public/images/github/frontend/homestart.png)
+![ home image1](https://github.com/AbderrahmaneAmerhhi/car_rental_app/blob/main/public/images/github/frontend/home1.png)
+![ home image2](https://github.com/AbderrahmaneAmerhhi/car_rental_app/blob/main/public/images/github/frontend/catscars.png)
 
 #### Contact Us
 
-![ Contact image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/contactus.png)
-
-#### Show Porduct
-
-![ Porduct image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/showproduct.png)
-
-#### Cart
-
-![ Cart image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/cart.png)
-
-#### Open Ticktes
-
-![ Open Ticktes image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/openTicket.png)
-
-#### Ticktes
-
-![  Ticktes image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/tickets.png)
-
-#### Invoices
-
-![  invoices image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/invoices.png)
-
-#### User Profile
-
-![  User Profile image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/userprofile.png)
+![ Contact image1](https://github.com/AbderrahmaneAmerhhi/car_rental_app/blob/main/public/images/github/frontend/contact.png)
 
 ## Some DarkMode images
 
-![  User DarkMode image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/Darkmodefront.png)
-![  User DarkMode image2](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/darkmode.png)
-![  User DarkMode image3](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/auth/registerdarkmode.png)
+![  User DarkMode image1](https://github.com/AbderrahmaneAmerhhi/car_rental_app/blob/main/public/images/github/frontend/DarkMode.png)
+![  User DarkMode image2](https://github.com/AbderrahmaneAmerhhi/car_rental_app/blob/main/public/images/github/backend/darkmode.png)
